@@ -1,0 +1,506 @@
+@media screen and (max-width: 400px) {
+    
+    
+    
+    header{
+        overflow: hidden;
+    }
+    nav{
+        position: relative;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0%;
+    }
+    .right ul{
+        
+        display: none;
+        
+        
+    }
+    .nav-toggle {
+        position: absolute;
+        
+        font-size: 2rem;
+        display:block;
+    }
+ 
+    .right ul {
+        margin-bottom: 10px;
+      }
+    .navtoggle i{
+        font-size: 2rem;
+        margin-right: 300px;
+        height: 1rem;
+    }
+
+
+    .navbar-toggle:checked ~ .right ul {
+        display: flex;
+        flex-direction: column;
+        background-color: #333;
+        padding: 10px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+      }
+
+
+    .navbar-toggle:checked ~ .nav-toggle .navbar-menu {
+        display: block;
+
+
+
+      }
+
+
+
+
+
+    /*.navbar-menu*/
+        
+    
+
+    .navbar-menu ul{
+        background: linear-gradient(to bottom, rgb(42, 70, 70),rgb(28, 61, 57),transparent);
+        list-style: none;
+        
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .navbar-menu ul li a{
+        text-decoration: none;
+        color: rgb(122, 213, 213);
+        font-weight: 700;
+    }
+    .navtoggle i.fa-times {
+        display: block;
+      }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+    .firstSection{
+        overflow: hidden;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5rem;
+        margin: 100px 0px;
+        margin-left: 0rem;
+        width: 100vw;
+        height: 100%;
+        
+        
+    }
+    .firstSection > div{
+        width: 100%;
+        
+    }
+    .leftSection{
+        
+        
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        
+        font-size: 2rem;
+    }
+    .rightSection img{
+        margin-left: 20px;
+        max-width: 100vw;
+    }    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .aboutme h1{
+        font-size: 2rem;
+    }
+    .aboutmepara{
+        font-size: 1rem;
+    }
+
+
+
+
+    .secondSection h1{
+        font-size: 1.7rem;
+    }
+    .secondSection .languages h2{
+        text-align: center;
+        
+        font-size: 1rem;
+    }
+    .languages{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .imagerow1 img{
+        height: 2rem;
+        width: 3rem;
+        
+    }
+    #java{
+        height: 4rem;
+        width: 2rem;
+    }
+    .imagerow2 img{
+        height: 20px;
+        width: 100px;
+        
+    }
+    #js{
+        height: 30px;
+        width: 85px;
+    }
+
+
+
+
+    .Mathematics{
+        margin-top: 100px;
+    }
+    .secondSection .Mathematics h2{
+        font-size: 1.2rem;
+        margin-bottom: 0px;
+    }
+    .Mathematics .box{
+        margin-top: -20px;
+    }
+    .Mathematics .msub li{
+        color: rgb(35, 212, 117);
+        font-size: 5px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .datascienceandml{
+        overflow: hidden;
+        
+        height: 100%;
+        width: 100%;
+        
+    }
+    .datascienceandml h2{
+        font-size: 1.2rem;
+    }
+    .datascienceandml .row1{
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        
+        height: 65vh;
+        padding-right: 10px;
+        
+        
+    }
+    .datascienceandml .row1 img{
+        
+        width: 20%;
+    }
+    #mern{
+        height: 100px;
+        width: 120px;
+        
+    }
+    #django{
+        height: 80px;
+        width: 130px;
+        
+    }
+    #aws{
+        height: 110px;
+        width: 110px;
+        
+    }
+    #sql{
+        width: 120px;
+        height: 100px;
+        
+    }
+    #TF{
+        height: 110px;
+        width: 110px;
+        background-color: rgba(255, 255, 255, 0.064);
+        border-radius: 2rem;
+    }
+    #numpy{
+        height: 80px;
+        width: 130px;
+    
+    }
+
+
+    
+
+
+
+    .se3{
+        overflow: hidden;
+        display: none;
+    }
+    .box0{
+        position: absolute;
+        margin-right: 10rem;
+        display: none;
+    }
+    .projectsection{
+        overflow: hidden;
+        text-align: center;
+        margin-top: 0rem;
+        color: rgb(91, 225, 201);
+    }
+    .box2{
+        overflow: hidden;
+        margin: 0 20rem;
+    }
+    .projects{
+        overflow: hidden;
+    }
+    .examples-area{
+        width: 12%;
+        margin: 0 10px;
+        min-height: 100px;
+    }
+    .overlay{
+        display: inline;
+    }
+    .area1{
+        background-size: cover;
+    }
+    .area2{
+        background-size: cover;
+    }
+
+
+    .p1text{
+        font-size: 1rem;
+    }
+    .p2text{
+        font-size: 0.2rem;
+    }
+    .p3text{
+        top: 10rem;
+        font-size: 1rem;
+    }
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .PILER{
+        overflow: hidden;
+    }
+
+
+    .pilerinfo{
+    
+        background: linear-gradient(to top, transparent 20%,rgba(12, 31, 31, 0.345) , rgba(20, 52, 52, 0.636),rgba(115, 240, 221, 0.162) );
+        border: 0.7rem solid rgba(255, 255, 255, 0.027);
+        margin-top: 50px;
+        margin-left: 10px;
+        height: 55vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0rem;
+        position: relative;
+        filter: blur(0.09rem);
+        
+    }
+    .pilerinfo{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    .aboutpiler{
+        
+        position: relative;
+        left: 150px;
+    }
+    .aboutpiler #pilerele{
+        font-size: 0.8rem;
+    }
+
+
+
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+    }
+    .contact-info{
+        border: 2px solid rgb(37, 84, 84);
+        background-color: transparent;
+    }
+    .contact-form{
+        height: 80vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    footer{
+        margin-top: 2rem;
+        overflow: hidden;
+        height: 7rem;
+        background: white;
+    }
+    .footer-content{
+        background-color: rgba(255, 0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+    }
+    .footer-links{
+        margin-top: 2rem;
+        
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: -10rem;
+        
+        
+
+    }
+    .footer-links li{
+        margin-bottom: 4rem;
+        
+    }
+    .footer-links li a{
+        font-size: 0.7rem;
+    }
+
+
+
+    .footer-copyright{
+        position: absolute;
+        margin-bottom: -3rem;
+    }
+
+
+
+}
